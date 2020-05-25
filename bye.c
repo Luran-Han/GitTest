@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "myheader.h"
 
-void printHello(void){
+void printBye(void){
 	printf("Bye world!\n");
 }
