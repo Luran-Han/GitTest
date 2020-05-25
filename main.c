@@ -2,6 +2,10 @@
 #include "myheader.h"
 
 int main(void){
+	char name[18] = {0,};
+	printf("Name: ");
+	scanf("%s", name);
+
 	printHello();
 	printBye();
 
